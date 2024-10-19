@@ -1,0 +1,66 @@
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+.main-content {
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+
+/* Stack Display Styles */
+.stack-display {
+  align-items: center;
+  border: 2px solid #333;
+  width: 300px;
+  height: 300px;
+
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.stack-element {
+  width: 90%;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.empty-message {
+  color: #777;
+}
+
+/* Input and Button Styles */
+input {
+  width: 20%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
+
+/* Peek Result Styles */
+.peek-result {
+  color: #333;
+  margin-top: 10px;
+  font-weight: bold;
+}
